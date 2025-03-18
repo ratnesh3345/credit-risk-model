@@ -2,9 +2,9 @@ import joblib
 import numpy as np
 import pandas as pd
 
-MODEL_PATH = 'artifacts/model_data.joblib'
+MODEL_PATH = 'App/artifacts/model_data.joblib'
 
-# Load the model and its components
+# Load the model and its componentsx  
 model_data = joblib.load(MODEL_PATH)
 model = model_data['model']
 scaler = model_data['scaler']
